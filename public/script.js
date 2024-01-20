@@ -9,7 +9,7 @@ function getVal() {
         headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify({ name: usName.value, age: usAge.value })
+        body: JSON.stringify({ namde: usName.value, age: usAge.value })
     })
 
 }
